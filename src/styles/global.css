@@ -1,16 +1,20 @@
+/* ================= GLOBAL STYLES ================= */
 html, body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  background: transparent;
   background: rgba(15, 23, 42, 0.5);
   color: #F1F5F9;
   font-family: "Poppins", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ========== COMMON SECTION STYLES ========== */
 .section {
-  height: 120vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +39,6 @@ html, body {
   list-style: none;
   display: flex;
   gap: 2rem;
-  
   margin-right: 4rem;
 }
 
@@ -43,7 +46,6 @@ html, body {
   color: #F1F5F9;
   text-decoration: none;
   transition: color 0.3s;
-  
 }
 
 .nav-links li a:hover {
@@ -62,7 +64,9 @@ html, body {
   width: 50%;
   margin: auto;
   margin-top: 16%;
-  height: 33%;
+  margin-bottom: 10%;
+  height: auto;
+  height: 45vh;
   background: rgba(6, 13, 24, 0.5);
   border-radius: 2rem;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
@@ -71,143 +75,8 @@ html, body {
 
 .hero-section:hover {
   transform: translateY(-10px);
-  background: rgba(6, 13, 24, 0.5);
 }
 
-/* ========== ABOUT SECTION ========== */
-.about-section {
-  text-align: center;
-  width: 50%;
-  padding-top: 40px;
-  margin: auto;
-  margin-top: 3%;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 90%;
-  background: rgba(6, 13, 24, 0.5);
-  border-radius: 2rem;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.about-section:hover {
-  transform: translateY(-10px);
-}
-
-/* ========== PROJECTS SECTION ========== */
-.projects-section {
-  text-align: center;
-  width: 50%;
-  margin: auto;
-  margin-top: 9%;
-  height: 115%;
-  background: rgba(6, 13, 24, 0.5);
-  border-radius: 2rem;
-  padding: 2rem;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.projects-section:hover {
-  transform: translateY(-10px);
-}
-.skills-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.skill-icon {
-  font-size: 40px;
-  transition: transform 0.3s ease;
-  color: var(--text-color); /* matches dark/light theme automatically */
-}
-
-.skill-icon:hover {
-  transform: scale(1.2);
-}
-
-/* ========== CONTACT SECTION ========== */
-.contact-section {
-  margin-top: 22%;
-  background: rgba(6, 13, 24, 0.5);
-  width: 50%;
-  border-radius: 2rem;
-  padding: 2rem;
-  text-align: center;
-  color: #F1F5F9;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.contact-section:hover {
-  transform: translateY(-10px);
-}
-
-.about-img {
-  width: 330px;
-  height: 330px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #8B5CF6;
-  margin-bottom: 1rem;
-}
-
-.highlight {
-  color: #8B5CF6;
-}
-.phone-contact {
-  margin-top: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  color: #f1f5f9;
-  font-size: 1.1rem;
-}
-
-.phone-icon {
-  color: #8B5CF6;
-  font-size: 1.4rem;
-}
-
-.phone-number {
-  color: #8B5CF6;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.phone-number:hover {
-  color: #8B5CF6;
-}
-
-
-
-/* ========== PROJECT CARD ========== */
-.project-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  align-items: center;
-}
-
-.project-card {
-  background: #1E293B;
-  color: white;
-  padding: 1.5rem;
-  border-radius: 1rem;
-  width: 60%;
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.project-card:hover {
-  transform: scale(1.05);
-  background: #2D3748;
-}
-
-/* ========== HERO CONTENT ========== */
 .hero-content {
   display: flex;
   flex-direction: column;
@@ -257,8 +126,9 @@ html, body {
   display: flex;
   gap: 1.5rem;
   font-size: 1.5rem;
-  margin-left: 40%;
+  justify-content: center;
 }
+
 
 .hero-icons a {
   color: #F1F5F9;
@@ -275,6 +145,138 @@ html, body {
   color: #94A3B8;
 }
 
+/* ========== ABOUT SECTION ========== */
+.about-section {
+  text-align: center;
+  width: 50%;
+  padding-top: 40px;
+  margin: auto;
+  margin-top: 6%;
+  height: auto;
+  height: 110vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(6, 13, 24, 0.5);
+  border-radius: 2rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.about-section:hover {
+  transform: translateY(-10px);
+}
+
+.about-img {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #8B5CF6;
+  margin-bottom: 1rem;
+}
+
+/* ========== PROJECTS SECTION ========== */
+.projects-section {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 9%;
+  background: rgba(6, 13, 24, 0.5);
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.projects-section:hover {
+  transform: translateY(-10px);
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.project-card {
+  background: #1E293B;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 60%;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  background: #2D3748;
+}
+
+/* ========== CONTACT SECTION ========== */
+.contact-section {
+  margin-top: 16%;
+  background: rgba(6, 13, 24, 0.5);
+  width: 50%;
+  border-radius: 2rem;
+  padding: 2rem;
+  text-align: center;
+  color: #F1F5F9;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contact-section:hover {
+  transform: translateY(-10px);
+}
+
+.phone-contact {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: #f1f5f9;
+  font-size: 1.1rem;
+}
+
+.phone-icon {
+  color: #8B5CF6;
+  font-size: 1.4rem;
+}
+
+.phone-number {
+  color: #8B5CF6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.phone-number:hover {
+  color: #8B5CF6;
+}
+.highlight {
+  color: #8B5CF6;
+}
+
+/* ========== SKILLS ICONS ========== */
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.skill-icon {
+  font-size: 40px;
+  transition: transform 0.3s ease;
+  color: var(--text-color);
+}
+
+.skill-icon:hover {
+  transform: scale(1.2);
+}
+
 /* ========== THEME VARIABLES ========== */
 body {
   --bg-color: #0F172A transparent;
@@ -282,21 +284,18 @@ body {
   --card-bg: rgba(6, 13, 24, 0.5);
 }
 
-/* LIGHT THEME */
 body[data-theme="light"] {
   --bg-color: #E5E9F0 transparent;
   --text-color: #1E293B;
   --card-bg: rgba(255, 255, 255, 0.7);
 }
 
-/* APPLY THEME VARIABLES */
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background 0.4s ease, color 0.4s ease;
 }
 
-/* Light theme element overrides for visibility */
 body[data-theme="light"] .navbar {
   background: rgba(255, 255, 255, 0.7);
 }
@@ -329,4 +328,85 @@ body[data-theme="light"] .hero-icons a {
 
 body[data-theme="light"] .footer-text {
   color: #334155;
+}
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #8B5CF6;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 60%;
+    background: rgba(15, 23, 42, 0.95);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    transition: right 0.3s ease;
+    z-index: 20;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .nav-links li a {
+    font-size: 1.2rem;
+  }
+
+  .theme-toggle {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+
+/* ========== RESPONSIVE FIXES FOR MOBILE ========== */
+@media (max-width: 768px) {
+  .hero-section,
+  .about-section,
+  .projects-section,
+  .contact-section {
+    width: 90%;
+    margin-top: 5%;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .hero-icons {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 0;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .about-img {
+    width: 200px;
+    height: 200px;
+  }
 }
