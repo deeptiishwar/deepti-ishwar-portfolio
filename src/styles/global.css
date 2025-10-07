@@ -1,0 +1,332 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: transparent;
+  background: rgba(15, 23, 42, 0.5);
+  color: #F1F5F9;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ========== COMMON SECTION STYLES ========== */
+.section {
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F1F5F9;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  z-index: 10;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  
+  margin-right: 4rem;
+}
+
+.nav-links li a {
+  color: #F1F5F9;
+  text-decoration: none;
+  transition: color 0.3s;
+  
+}
+
+.nav-links li a:hover {
+  color: #8B5CF6;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #8B5CF6;
+  margin-top: 1rem;
+}
+
+/* ========== HERO SECTION ========== */
+.hero-section {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 16%;
+  height: 33%;
+  background: rgba(6, 13, 24, 0.5);
+  border-radius: 2rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.hero-section:hover {
+  transform: translateY(-10px);
+  background: rgba(6, 13, 24, 0.5);
+}
+
+/* ========== ABOUT SECTION ========== */
+.about-section {
+  text-align: center;
+  width: 50%;
+  padding-top: 40px;
+  margin: auto;
+  margin-top: 3%;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 90%;
+  background: rgba(6, 13, 24, 0.5);
+  border-radius: 2rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.about-section:hover {
+  transform: translateY(-10px);
+}
+
+/* ========== PROJECTS SECTION ========== */
+.projects-section {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 9%;
+  height: 115%;
+  background: rgba(6, 13, 24, 0.5);
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.projects-section:hover {
+  transform: translateY(-10px);
+}
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.skill-icon {
+  font-size: 40px;
+  transition: transform 0.3s ease;
+  color: var(--text-color); /* matches dark/light theme automatically */
+}
+
+.skill-icon:hover {
+  transform: scale(1.2);
+}
+
+/* ========== CONTACT SECTION ========== */
+.contact-section {
+  margin-top: 22%;
+  background: rgba(6, 13, 24, 0.5);
+  width: 50%;
+  border-radius: 2rem;
+  padding: 2rem;
+  text-align: center;
+  color: #F1F5F9;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contact-section:hover {
+  transform: translateY(-10px);
+}
+
+.about-img {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #8B5CF6;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #8B5CF6;
+}
+.phone-contact {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: #f1f5f9;
+  font-size: 1.1rem;
+}
+
+.phone-icon {
+  color: #8B5CF6;
+  font-size: 1.4rem;
+}
+
+.phone-number {
+  color: #8B5CF6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.phone-number:hover {
+  color: #8B5CF6;
+}
+
+
+
+/* ========== PROJECT CARD ========== */
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.project-card {
+  background: #1E293B;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 60%;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  background: #2D3748;
+}
+
+/* ========== HERO CONTENT ========== */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-primary {
+  background-color: #6366F1;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #09011b;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #8B5CF6;
+  color: #F1F5F9;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: #735ea4;
+  color: white;
+}
+
+.hero-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  margin-left: 40%;
+}
+
+.hero-icons a {
+  color: #F1F5F9;
+  transition: color 0.3s ease;
+}
+
+.hero-icons a:hover {
+  color: #8B5CF6;
+}
+
+.footer-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #94A3B8;
+}
+
+/* ========== THEME VARIABLES ========== */
+body {
+  --bg-color: #0F172A transparent;
+  --text-color: #F1F5F9;
+  --card-bg: rgba(6, 13, 24, 0.5);
+}
+
+/* LIGHT THEME */
+body[data-theme="light"] {
+  --bg-color: #E5E9F0 transparent;
+  --text-color: #1E293B;
+  --card-bg: rgba(255, 255, 255, 0.7);
+}
+
+/* APPLY THEME VARIABLES */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+/* Light theme element overrides for visibility */
+body[data-theme="light"] .navbar {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+body[data-theme="light"] .nav-links li a {
+  color: #1E293B;
+}
+
+body[data-theme="light"] .logo {
+  color: #6366F1;
+}
+
+body[data-theme="light"] .hero-section,
+body[data-theme="light"] .about-section,
+body[data-theme="light"] .projects-section,
+body[data-theme="light"] .contact-section {
+  background: var(--card-bg);
+  color: var(--text-color);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+body[data-theme="light"] .btn-secondary {
+  color: #1E293B;
+  border-color: #6366F1;
+}
+
+body[data-theme="light"] .hero-icons a {
+  color: #1E293B;
+}
+
+body[data-theme="light"] .footer-text {
+  color: #334155;
+}
