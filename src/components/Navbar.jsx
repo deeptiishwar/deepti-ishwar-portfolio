@@ -19,7 +19,7 @@ const Navbar = () => {
 export default Navbar;
 */
 import React from "react";
-import "../styles/navbar.css";
+import "../styles/Navbar.css";
 
 const Navbar = ({ theme, toggleTheme }) => {
   return (
