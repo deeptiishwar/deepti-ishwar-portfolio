@@ -58,10 +58,11 @@ const Hero = () => {
         <p>Software Development | Frontend Developer | CSE @ Anna University</p>
 
         <div className="hero-buttons">
-          {/* ✅ Download Resume Button */}
-          <a href={resume} download="Deepti_Ishwar_Resume.pdf" className="btn-primary">
-            Download Resume
-          </a>
+         <a href="#contact" className="btn-primary">
+  Contact Me
+</a>
+
+          
 
           <button className="btn-secondary" onClick={handleCopyEmail}>
             Copy Email
