@@ -45,7 +45,7 @@ import resume from "../assets/Deepti-Ishwar-Resume.pdf"; // 👈 make sure your 
 
 const Hero = () => {
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText("deeptiishwar@gmail.com");
+    navigator.clipboard.writeText("deeptimona07@gmail.com");
     alert("Email copied to clipboard!");
   };
 
