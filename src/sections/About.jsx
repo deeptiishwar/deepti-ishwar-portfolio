@@ -25,7 +25,7 @@ export default About;
 import React from "react";
 import profile from "../assets/profile.jpg";
 import { FaReact, FaFigma, FaJava, FaDatabase } from "react-icons/fa";
-import { SiFlask, SiC } from "react-icons/si";
+import { SiFlask, SiC, SiJavascript, SiHtml5, SiCss3 } from "react-icons/si";
 
 const About = () => {
   return (
@@ -53,6 +53,9 @@ const About = () => {
           <div title="React"><FaReact className="skill-icon" /></div>
           <div title="Flask"><SiFlask className="skill-icon" /></div>
           <div title="Figma"><FaFigma className="skill-icon" /></div>
+          <div title="JavaScript" role="listitem"><SiJavascript className="skill-icon" /></div>
+  <div title="HTML" role="listitem"><SiHtml5 className="skill-icon" /></div>
+  <div title="CSS" role="listitem"><SiCss3 className="skill-icon" /></div>
         </div>
       </div>
     </section>
