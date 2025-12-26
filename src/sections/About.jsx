@@ -34,14 +34,15 @@ const About = () => {
 
       <div className="about-text">
         <h2 className="highlight">About Me</h2>
-        <p>
-  I’m a recent Computer Science graduate from Anna University, passionate about software and front-end development. I enjoy building clean, user-focused web applications and continuously honing my skills in React, JavaScript, and modern UI design.
+        
+ <p>
+B.E CSE 2025 graduate skilled in frontend development (React, JavaScript) and open to roles in software development or testing. Passionate about building user-focused applications while learning quality assurance practices to deliver well-tested solutions.
 </p>
 <p>
-  I completed a front-end development internship at <strong>Jindal Steel & Power</strong>, where I developed the front-end of a Survey Management System web application and worked on database connectivity and feature integration.
+I completed a front-end development internship at <strong>Jindal Steel & Power</strong>, where I developed the front-end of a Survey Management System web application and worked on database connectivity and feature integration. I also worked at <strong>ZoomRx</strong> as a Survey Developer, where I built and tested surveys using the in-house SPI tool — implementing logics, branching, and validations while debugging and optimizing for smooth deployment.
 </p>
 <p>
-  Outside of coding, I enjoy painting, dancing, bowling, and binge-watching — activities that keep my creativity alive beyond the screen.
+Outside of coding, I enjoy painting, dancing, bowling, and binge-watching — activities that keep my creativity alive beyond the screen.
 </p>
 
 

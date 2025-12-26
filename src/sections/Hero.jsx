@@ -55,7 +55,7 @@ const Hero = () => {
         <h1>
           Hello, I’m <span className="highlight">Deepti Ishwar</span>
         </h1>
-        <p>Software Development | Frontend Developer | CSE @ Anna University</p>
+        <p>Software Development | Frontend Developer |  QA & Testing | CSE @ Anna University</p>
 
         <div className="hero-buttons">
          <a href="#contact" className="btn-primary">
