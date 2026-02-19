@@ -36,7 +36,7 @@ const About = () => {
         <h2 className="highlight">About Me</h2>
         
  <p>
-B.E CSE 2025 graduate skilled in frontend development (React, JavaScript) and open to roles in software development or testing. Passionate about building user-focused applications while learning quality assurance practices to deliver well-tested solutions.
+B.E CSE 2025 graduate skilled in frontend development (React, JavaScript) and open to roles in software development. Passionate about building user-focused applications while learning quality assurance practices to deliver well-tested solutions.
 </p>
 <p>
 I completed a front-end development internship at <strong>Jindal Steel & Power</strong>, where I developed the front-end of a Survey Management System web application and worked on database connectivity and feature integration. I also worked at <strong>ZoomRx</strong> as a Survey Developer, where I built and tested surveys using the in-house SPI tool — implementing logics, branching, and validations while debugging and optimizing for smooth deployment.
